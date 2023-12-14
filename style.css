@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url('assets/barber-shop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+nav {
+    text-align: end;
+    margin: 30px 35px 0 0;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.link-nav:link,
+.link-nav:visited,
+.link-nav:active {
+    text-decoration: none;
+}
+
+.link-nav:hover {
+    font-size: 150%;
+    color: #eead2d;
+}
+
+.link-nav:active {
+    opacity: 0.6;
+}
+
+.link-btn {
+
+    height: 44px;
+    width: 130px;
+    background-color: #eead2d;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    margin-left: 30px;
+}
+
+
+.container-main {
+    margin: 290px 0 0 150px;
+}
+
+.container-p {
+    color: #eead2d;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.container-h1 {
+    width: 520px;
+    font-weight: bold;
+    line-height: 70px;
+    color: #fff;
+    font-size: 55px;
+}
+
+.container-h3 {
+    width: 400px;
+    color: #cecbcb;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.container-btn {
+    margin-top: 50px;
+    display: flex;
+    gap: 60px;
+}
+
+.btn-main {
+    height: 50px;
+    width: 130px;
+    color: #000;
+    background-color: #eead2d;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-transp {
+    height: 50px;
+    width: 130px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
